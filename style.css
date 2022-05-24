@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 header {
     background: #cccccc;
@@ -33,9 +34,23 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(30, 16, 110);
-    text-decoration: underline;
+    color: rgb(243, 241, 241); 
 }
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+    
+}
+
+/*css da pagina de produtos*/
 
 .produtos {
     width: 940px;
@@ -83,18 +98,7 @@ nav a:hover {
     margin: 10px 0 0;
 }
 
-footer {
-    text-align: center;
-    background: url("bg.jpg");
-    padding: 40px 0;
-}
-
-.copyright {
-    color: #FFFFFF;
-    font-size: 13px;
-    margin: 20px 0 0;
-    
-}
+/*css da pagina contato*/
 
 form {
     margin: 40px 0;
@@ -161,6 +165,8 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    font-weight: bold;
+
 }
 
 .principal {
@@ -168,7 +174,6 @@ td, th {
     background: #fefefe;
     width: 940px;
     margin: 0 auto;
-    color: #000000;
 }
 
 .principal p {
