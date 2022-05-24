@@ -168,6 +168,7 @@ td, th {
     background: #fefefe;
     width: 940px;
     margin: 0 auto;
+    color: #000000;
 }
 
 .principal p {
@@ -233,6 +234,11 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 0.8;
+}
+
+.imagem-beneficios:hover {
+    opacity: 1;
 }
 
 .video {
