@@ -55,7 +55,7 @@ footer {
 .produtos {
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .produtos li {
@@ -68,10 +68,11 @@ footer {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .produtos li:hover {
-    border-color: rgb(30, 16, 110);
+    border-color: rgb(233, 233, 233);
 
 }
 
@@ -80,7 +81,7 @@ footer {
 }
 
 .produtos li:hover h2 {
-    font-size: 34px;
+    font-size: 31px;
 }
 
 .produtos h2 {
@@ -99,6 +100,14 @@ footer {
 }
 
 /*css da pagina contato*/
+
+.formulario {
+    margin: 0 50px;
+}
+
+.divisao {
+    display: inline-block;
+}
 
 form {
     margin: 40px 0;
@@ -122,7 +131,7 @@ form label, form legend {
 }
 
 .enviar {
-    width: 40%;
+    width: 30%;
     padding: 15px 0;
     background: orange;
     color: white;
@@ -136,7 +145,6 @@ form label, form legend {
 
 .enviar:hover {
     background: darkorange;
-    transform: scale(1.2);
 }
 
 table {
